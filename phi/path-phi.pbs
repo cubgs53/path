@@ -1,0 +1,12 @@
+#!/bin/sh -l
+
+#PBS -l nodes=1:ppn=24
+#PBS -l walltime=0:30:00
+#PBS -N path-mpi
+#PBS -j oe
+
+module load cs5220
+cd $PBS_O_WORKDIR
+scp phi.MIC mic0:/tmp
+export I_MPI_MIC=1
+mpirun -host mic0 -n 100 /tmp/phi.MIC -n 1000
