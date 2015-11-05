@@ -5,7 +5,7 @@ import os, re, csv
 def check(basic, new):
     for file_name in os.listdir(os.getcwd()):
         if re.match('{}.o[0-9]+'.format(basic), file_name):
-            print "basic result: %s in %s" %(basic, file_name)
+            print "basic: %s in %s" %(basic, file_name)
             basic_name = file_name
             basic_out = open(file_name, 'r')
             basic_result = {}
@@ -26,7 +26,7 @@ def check(basic, new):
 
     for file_name in os.listdir(os.getcwd()):
         if re.match('{}.o[0-9]+'.format(new), file_name):
-            print "new result: %s in %s" %(new, file_name)
+            print "new: %s in %s" %(new, file_name)
             new_name = file_name
             new_out = open(file_name, 'r')
             found = 0
