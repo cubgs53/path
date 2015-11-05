@@ -2,12 +2,13 @@
 
 import os, re, csv
 
-def check(name):
+def check(basic, new):
     for file_name in os.listdir(os.getcwd()):
-        if re.match('{}.o[0-9]+'.format("omp"), file_name):
+        if re.match('{}.o[0-9]+'.format(basic), file_name):
             print file_name
-            omp_out = open(file_name, 'r')
-            omp_result = {}
+            basic_name = file_name
+            basic_out = open(file_name, 'r')
+            basic_result = {}
             found = 0
             for line in omp_out:
                 par = line.split()
@@ -20,12 +21,13 @@ def check(name):
                 elif found == 2 and len(par) > 0 and par[0] == 'Check:':
                     result = par[-1]
                     found = 0
-                    omp_result[n] = result
-            omp_out.close()
+                    basic_result[n] = result
+            basic_out.close()
 
     for file_name in os.listdir(os.getcwd()):
         if re.match('{}.o[0-9]+'.format(name), file_name):
             print file_name
+            new_name = file_name
             new_out = open(file_name, 'r')
             found = 0
             for line in omp_out:
@@ -39,12 +41,11 @@ def check(name):
                 elif found == 2 and len(par) > 0 and par[0] == 'Check:':
                     result = par[-1]
                     found = 0
-                    if result != omp_result[n]:
+                    if result != basic_result[n]:
                         print "ERROR"
-                        print "omp result: %d, %s" %(n, omp_result[n])
-                        print "%s result: %d, %s" %(name, n, result)
+                        print "%s result in %: %d, %s" %(basic, basic_name, n, basic_result[n])
+                        print "%s result in %: %d, %s" %(new, new_name, n, result)
             new_out.close()
 
-check('omp')
-check('mpi')
-check('hybrid')
+check('omp', 'mpi')
+check('omp', 'hybrid')
