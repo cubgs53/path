@@ -5,7 +5,7 @@ import os, re, csv
 def check(basic, new):
     for file_name in os.listdir(os.getcwd()):
         if re.match('{}.o[0-9]+'.format(basic), file_name):
-            print file_name
+            print "basic result: %s in %s" %(basic, file_name)
             basic_name = file_name
             basic_out = open(file_name, 'r')
             basic_result = {}
@@ -25,11 +25,12 @@ def check(basic, new):
             basic_out.close()
 
     for file_name in os.listdir(os.getcwd()):
-        if re.match('{}.o[0-9]+'.format(name), file_name):
-            print file_name
+        if re.match('{}.o[0-9]+'.format(new), file_name):
+            print "new result: %s in %s" %(new, file_name)
             new_name = file_name
             new_out = open(file_name, 'r')
             found = 0
+            error = False
             for line in new_out:
                 par = line.split()
                 if found == 0 and len(par) > 0 and par[0] == '==':
@@ -42,10 +43,14 @@ def check(basic, new):
                     result = par[-1]
                     found = 0
                     if result != basic_result[n]:
-                        print "ERROR"
-                        print "%s result in %: %d, %s" %(basic, basic_name, n, basic_result[n])
-                        print "%s result in %: %d, %s" %(new, new_name, n, result)
+                        print "ERROR IS DETECTED"
+                        print "%s in %s: n = %d, Check = %s" %(basic, basic_name, n, basic_result[n])
+                        print "%s in %s: n = %d, Check = %s" %(new, new_name, n, result)
+                        error = True
             new_out.close()
+
+            if not error:    
+                print "NO ERROR IS DETECTED"
 
 check('omp', 'mpi')
 check('omp', 'hybrid')
