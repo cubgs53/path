@@ -1,0 +1,5 @@
+== Hybrid: 1 MPI threads, 24 OMP threads
+n:     100
+p:     0.05
+Time:  0.201126
+Check: D30F

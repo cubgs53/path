@@ -1,0 +1,30 @@
+== MPI: 1 MPI threads
+n:     600
+p:     0.05
+Time:  0.525545
+Check: 5FD6
+== MPI: 1 MPI threads
+n:     1200
+p:     0.05
+Time:  4.30997
+Check: 857C
+== MPI: 1 MPI threads
+n:     1800
+p:     0.05
+Time:  15.3943
+Check: 7C67
+== MPI: 1 MPI threads
+n:     2400
+p:     0.05
+Time:  101.111
+Check: A00B
+== MPI: 1 MPI threads
+n:     3600
+p:     0.05
+Time:  188.292
+Check: CC20
+== MPI: 1 MPI threads
+n:     7200
+p:     0.05
+Time:  1796.56
+Check: 173D

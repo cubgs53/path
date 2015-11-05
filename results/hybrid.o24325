@@ -1,0 +1,240 @@
+== Hybrid: 1 MPI threads, 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.135053
+Check: 5FD6
+== Hybrid: 1 MPI threads, 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.74125
+Check: 857C
+== Hybrid: 1 MPI threads, 24 OMP threads
+n:     1800
+p:     0.05
+Time:  2.2449
+Check: 7C67
+== Hybrid: 1 MPI threads, 24 OMP threads
+n:     2400
+p:     0.05
+Time:  8.23994
+Check: A00B
+== Hybrid: 1 MPI threads, 24 OMP threads
+n:     3600
+p:     0.05
+Time:  24.2101
+Check: CC20
+== Hybrid: 1 MPI threads, 24 OMP threads
+n:     7200
+p:     0.05
+Time:  179.46
+Check: 173D
+== Hybrid: 2 MPI threads, 12 OMP threads
+n:     600
+p:     0.05
+Time:  0.120345
+Check: 5FD6
+== Hybrid: 2 MPI threads, 12 OMP threads
+n:     1200
+p:     0.05
+Time:  2.59396
+Check: 857C
+== Hybrid: 2 MPI threads, 12 OMP threads
+n:     1800
+p:     0.05
+Time:  1.34121
+Check: 7C67
+== Hybrid: 2 MPI threads, 12 OMP threads
+n:     2400
+p:     0.05
+Time:  7.06561
+Check: A00B
+== Hybrid: 2 MPI threads, 12 OMP threads
+n:     3600
+p:     0.05
+Time:  18.9678
+Check: CC20
+== Hybrid: 2 MPI threads, 12 OMP threads
+n:     7200
+p:     0.05
+Time:  147.041
+Check: 173D
+== Hybrid: 3 MPI threads, 8 OMP threads
+n:     600
+p:     0.05
+Time:  0.162753
+Check: 5FD6
+== Hybrid: 3 MPI threads, 8 OMP threads
+n:     1200
+p:     0.05
+Time:  2.57553
+Check: 857C
+== Hybrid: 3 MPI threads, 8 OMP threads
+n:     1800
+p:     0.05
+Time:  1.78762
+Check: 7C67
+== Hybrid: 3 MPI threads, 8 OMP threads
+n:     2400
+p:     0.05
+Time:  9.18429
+Check: A00B
+== Hybrid: 3 MPI threads, 8 OMP threads
+n:     3600
+p:     0.05
+Time:  31.4241
+Check: CC20
+== Hybrid: 3 MPI threads, 8 OMP threads
+n:     7200
+p:     0.05
+Time:  212.339
+Check: 173D
+== Hybrid: 4 MPI threads, 6 OMP threads
+n:     600
+p:     0.05
+Time:  0.112237
+Check: 5FD6
+== Hybrid: 4 MPI threads, 6 OMP threads
+n:     1200
+p:     0.05
+Time:  2.77327
+Check: 857C
+== Hybrid: 4 MPI threads, 6 OMP threads
+n:     1800
+p:     0.05
+Time:  1.91779
+Check: 7C67
+== Hybrid: 4 MPI threads, 6 OMP threads
+n:     2400
+p:     0.05
+Time:  7.95647
+Check: A00B
+== Hybrid: 4 MPI threads, 6 OMP threads
+n:     3600
+p:     0.05
+Time:  25.2977
+Check: CC20
+== Hybrid: 4 MPI threads, 6 OMP threads
+n:     7200
+p:     0.05
+Time:  178.124
+Check: 173D
+== Hybrid: 6 MPI threads, 4 OMP threads
+n:     600
+p:     0.05
+Time:  0.0964849
+Check: 5FD6
+== Hybrid: 6 MPI threads, 4 OMP threads
+n:     1200
+p:     0.05
+Time:  2.49676
+Check: 857C
+== Hybrid: 6 MPI threads, 4 OMP threads
+n:     1800
+p:     0.05
+Time:  1.70396
+Check: 7C67
+== Hybrid: 6 MPI threads, 4 OMP threads
+n:     2400
+p:     0.05
+Time:  6.53057
+Check: A00B
+== Hybrid: 6 MPI threads, 4 OMP threads
+n:     3600
+p:     0.05
+Time:  26.281
+Check: CC20
+== Hybrid: 6 MPI threads, 4 OMP threads
+n:     7200
+p:     0.05
+Time:  175.627
+Check: 173D
+== Hybrid: 8 MPI threads, 3 OMP threads
+n:     600
+p:     0.05
+Time:  0.0590091
+Check: 5FD6
+== Hybrid: 8 MPI threads, 3 OMP threads
+n:     1200
+p:     0.05
+Time:  2.31821
+Check: 857C
+== Hybrid: 8 MPI threads, 3 OMP threads
+n:     1800
+p:     0.05
+Time:  2.804
+Check: 7C67
+== Hybrid: 8 MPI threads, 3 OMP threads
+n:     2400
+p:     0.05
+Time:  9.90271
+Check: A00B
+== Hybrid: 8 MPI threads, 3 OMP threads
+n:     3600
+p:     0.05
+Time:  26.8266
+Check: CC20
+== Hybrid: 8 MPI threads, 3 OMP threads
+n:     7200
+p:     0.05
+Time:  169.387
+Check: 173D
+== Hybrid: 12 MPI threads, 2 OMP threads
+n:     600
+p:     0.05
+Time:  0.057632
+Check: 5FD6
+== Hybrid: 12 MPI threads, 2 OMP threads
+n:     1200
+p:     0.05
+Time:  2.59817
+Check: 857C
+== Hybrid: 12 MPI threads, 2 OMP threads
+n:     1800
+p:     0.05
+Time:  1.83768
+Check: 7C67
+== Hybrid: 12 MPI threads, 2 OMP threads
+n:     2400
+p:     0.05
+Time:  5.94577
+Check: A00B
+== Hybrid: 12 MPI threads, 2 OMP threads
+n:     3600
+p:     0.05
+Time:  21.0441
+Check: CC20
+== Hybrid: 12 MPI threads, 2 OMP threads
+n:     7200
+p:     0.05
+Time:  180.708
+Check: 173D
+== Hybrid: 24 MPI threads, 1 OMP threads
+n:     600
+p:     0.05
+Time:  0.0882769
+Check: 5FD6
+== Hybrid: 24 MPI threads, 1 OMP threads
+n:     1200
+p:     0.05
+Time:  0.946806
+Check: 857C
+== Hybrid: 24 MPI threads, 1 OMP threads
+n:     1800
+p:     0.05
+Time:  3.17733
+Check: 7C67
+== Hybrid: 24 MPI threads, 1 OMP threads
+n:     2400
+p:     0.05
+Time:  10.4453
+Check: A00B
+== Hybrid: 24 MPI threads, 1 OMP threads
+n:     3600
+p:     0.05
+Time:  34.753
+Check: CC20
+== Hybrid: 24 MPI threads, 1 OMP threads
+n:     7200
+p:     0.05
+Time:  209.134
+Check: 173D

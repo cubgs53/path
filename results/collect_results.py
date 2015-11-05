@@ -1,5 +1,6 @@
-import os, re, csv
+#!/usr/bin/env python
 
+import os, re, csv
 
 def collect(name):
     with open('results-{}.csv'.format(name), 'w') as out:
@@ -28,3 +29,5 @@ def collect(name):
                         print par, found
 
 collect('omp')
+collect('mpi')
+collect('hybrid')

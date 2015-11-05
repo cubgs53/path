@@ -1,14 +1,17 @@
+#!/usr/bin/env python
+
 import os
 import time
 
-n= range(500,5100,500)
-threads_mpi = range(2,25,2) + [1]
+n = [600 * k for k in range(1, 13) if 12 % k == 0]
+threads_mpi = [k for k in range(1, 25) if 24 % k == 0]
 threads_omp = [1]
 
 def create_pbs(name, threads, n, mpi=False):
     fname = "{}.pbs".format(name)
     out = open(fname,'w')
-    s = '''#!/bin/sh -l
+    s = '''
+#!/bin/sh -l
 #PBS -l nodes=1:ppn=24
 #PBS -l walltime=5:00:00
 #PBS -N {}
@@ -27,6 +30,6 @@ cd $PBS_O_WORKDIR
     out.close()
     os.system("qsub {}".format(fname))
 
-create_pbs("hybrid", mpi=True, n=n, threads=threads_mpi)
 create_pbs("omp", mpi=False, n=n, threads=threads_mpi)
-create_pbs("mpi", mpi=True, threads=threads_omp, n=n)
+create_pbs("mpi", mpi=True, n=n, threads=threads_omp)
+create_pbs("hybrid", mpi=True, n=n, threads=threads_mpi)

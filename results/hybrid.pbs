@@ -1,0 +1,56 @@
+
+#!/bin/sh -l
+#PBS -l nodes=1:ppn=24
+#PBS -l walltime=5:00:00
+#PBS -N hybrid
+#PBS -j oe
+module load cs5220
+cd $PBS_O_WORKDIR
+mpirun -n 1 ../hybrid.x -n 600
+mpirun -n 1 ../hybrid.x -n 1200
+mpirun -n 1 ../hybrid.x -n 1800
+mpirun -n 1 ../hybrid.x -n 2400
+mpirun -n 1 ../hybrid.x -n 3600
+mpirun -n 1 ../hybrid.x -n 7200
+mpirun -n 2 ../hybrid.x -n 600
+mpirun -n 2 ../hybrid.x -n 1200
+mpirun -n 2 ../hybrid.x -n 1800
+mpirun -n 2 ../hybrid.x -n 2400
+mpirun -n 2 ../hybrid.x -n 3600
+mpirun -n 2 ../hybrid.x -n 7200
+mpirun -n 3 ../hybrid.x -n 600
+mpirun -n 3 ../hybrid.x -n 1200
+mpirun -n 3 ../hybrid.x -n 1800
+mpirun -n 3 ../hybrid.x -n 2400
+mpirun -n 3 ../hybrid.x -n 3600
+mpirun -n 3 ../hybrid.x -n 7200
+mpirun -n 4 ../hybrid.x -n 600
+mpirun -n 4 ../hybrid.x -n 1200
+mpirun -n 4 ../hybrid.x -n 1800
+mpirun -n 4 ../hybrid.x -n 2400
+mpirun -n 4 ../hybrid.x -n 3600
+mpirun -n 4 ../hybrid.x -n 7200
+mpirun -n 6 ../hybrid.x -n 600
+mpirun -n 6 ../hybrid.x -n 1200
+mpirun -n 6 ../hybrid.x -n 1800
+mpirun -n 6 ../hybrid.x -n 2400
+mpirun -n 6 ../hybrid.x -n 3600
+mpirun -n 6 ../hybrid.x -n 7200
+mpirun -n 8 ../hybrid.x -n 600
+mpirun -n 8 ../hybrid.x -n 1200
+mpirun -n 8 ../hybrid.x -n 1800
+mpirun -n 8 ../hybrid.x -n 2400
+mpirun -n 8 ../hybrid.x -n 3600
+mpirun -n 8 ../hybrid.x -n 7200
+mpirun -n 12 ../hybrid.x -n 600
+mpirun -n 12 ../hybrid.x -n 1200
+mpirun -n 12 ../hybrid.x -n 1800
+mpirun -n 12 ../hybrid.x -n 2400
+mpirun -n 12 ../hybrid.x -n 3600
+mpirun -n 12 ../hybrid.x -n 7200
+mpirun -n 24 ../hybrid.x -n 600
+mpirun -n 24 ../hybrid.x -n 1200
+mpirun -n 24 ../hybrid.x -n 1800
+mpirun -n 24 ../hybrid.x -n 2400
+mpirun -n 24 ../hybrid.x -n 3600
+mpirun -n 24 ../hybrid.x -n 7200

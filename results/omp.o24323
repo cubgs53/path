@@ -1,0 +1,240 @@
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.194577
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.82554
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  2.50165
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  6.54634
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  24.0186
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  190.167
+Check: 173D
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.148169
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.712474
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  2.06133
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  8.61587
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  24.9565
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  184.216
+Check: 173D
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.202515
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.896303
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  2.30595
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  9.52139
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  25.3321
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  169.57
+Check: 173D
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.147401
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.535849
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  2.45462
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  9.00316
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  26.1183
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  173.448
+Check: 173D
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.124707
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  2.61126
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  1.80769
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  6.3414
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  23.4873
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  189.734
+Check: 173D
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.135402
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.81464
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  1.4208
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  6.58868
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  26.4074
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  174.922
+Check: 173D
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.265092
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.775886
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  1.36786
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  8.28806
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  22.9942
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  167.057
+Check: 173D
+== OpenMP: 24 OMP threads
+n:     600
+p:     0.05
+Time:  0.149042
+Check: 5FD6
+== OpenMP: 24 OMP threads
+n:     1200
+p:     0.05
+Time:  0.69595
+Check: 857C
+== OpenMP: 24 OMP threads
+n:     1800
+p:     0.05
+Time:  2.02622
+Check: 7C67
+== OpenMP: 24 OMP threads
+n:     2400
+p:     0.05
+Time:  9.08861
+Check: A00B
+== OpenMP: 24 OMP threads
+n:     3600
+p:     0.05
+Time:  23.6242
+Check: CC20
+== OpenMP: 24 OMP threads
+n:     7200
+p:     0.05
+Time:  171.821
+Check: 173D

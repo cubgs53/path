@@ -1,0 +1,14 @@
+
+#!/bin/sh -l
+#PBS -l nodes=1:ppn=24
+#PBS -l walltime=5:00:00
+#PBS -N mpi
+#PBS -j oe
+module load cs5220
+cd $PBS_O_WORKDIR
+mpirun -n 1 ../mpi.x -n 600
+mpirun -n 1 ../mpi.x -n 1200
+mpirun -n 1 ../mpi.x -n 1800
+mpirun -n 1 ../mpi.x -n 2400
+mpirun -n 1 ../mpi.x -n 3600
+mpirun -n 1 ../mpi.x -n 7200
