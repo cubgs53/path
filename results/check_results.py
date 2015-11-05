@@ -10,7 +10,7 @@ def check(basic, new):
             basic_out = open(file_name, 'r')
             basic_result = {}
             found = 0
-            for line in omp_out:
+            for line in basic_out:
                 par = line.split()
                 if found == 0 and len(par) > 0 and par[0] == '==':
                     found = 1
@@ -30,7 +30,7 @@ def check(basic, new):
             new_name = file_name
             new_out = open(file_name, 'r')
             found = 0
-            for line in omp_out:
+            for line in new_out:
                 par = line.split()
                 if found == 0 and len(par) > 0 and par[0] == '==':
                     found = 1
